@@ -1,0 +1,95 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*----------------
+NAV
+------------------*/
+
+nav {
+    background-color: #8BEACA;
+}
+
+.navbar, .offcanvas {
+    background-color: #8BEACA;  
+    padding: 0.25rem .5rem 0.25rem .5rem;
+}
+
+.icon {
+    width: 3rem;
+    margin-right: 1rem;
+}
+
+.nav-item {
+    margin: 0 1rem 0 1rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: #FF5CCB;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    text-decoration: underline;
+    text-decoration-color: #FF5CCB;
+    text-decoration-thickness: 4px;
+}
+
+a .navbar-brand {
+    margin: 0px 30px 0px 30px;
+}
+
+/*----------------
+MAIN
+------------------*/
+
+main {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.welcome {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-table, .home-table tr, .home-table td {
+    border: 0.5rem solid #FF5CCB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------
+FOOTER
+------------------*/
+
+footer {
+    background-color: #8BEACA;
+    text-align: center;
+    margin: auto;
+    padding: 0.25rem .5rem 0.25rem .5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    width: 75%;
+    float: left;
+    padding-top: 10px;
+}
+
+.footer-icon {
+    width: 25%
+    float: right;
+}
+
+/*----------------
+CLEARFIX
+------------------*/
+
+.clearfix {
+    overflow: auto;
+  }
